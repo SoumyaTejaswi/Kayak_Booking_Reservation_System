@@ -1,0 +1,100 @@
+Last login: Sat May 24 01:57:25 on ttys000
+(base) soumyav@Soumyas-MacBook-Air ~ % cd Desktop
+(base) soumyav@Soumyas-MacBook-Air Desktop % cd Kayak_Assessment
+(base) soumyav@Soumyas-MacBook-Air Kayak_Assessment % cd RoomReservation && mvn clean compile exec:java
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ---------------< com.kayak.hotelsearch:RoomReservation >----------------
+[INFO] Building RoomReservation 1.0-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- clean:3.2.0:clean (default-clean) @ RoomReservation ---
+[INFO] Deleting /Users/soumyav/Desktop/Kayak_Assessment/RoomReservation/target
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ RoomReservation ---
+[INFO] Copying 2 resources from src/main/resources to target/classes
+[INFO] 
+[INFO] --- compiler:3.11.0:compile (default-compile) @ RoomReservation ---
+[INFO] Changes detected - recompiling the module! :source
+[INFO] Compiling 5 source files with javac [debug target 21] to target/classes
+[WARNING] location of system modules is not set in conjunction with -source 21
+  not setting the location of system modules may lead to class files that cannot run on JDK 21
+    --release 21 is recommended instead of -source 21 -target 21 because it sets the location of system modules automatically
+[INFO] 
+[INFO] --- exec:3.1.0:java (default-cli) @ RoomReservation ---
+Soumya Tejaswi Vadlamani
+Cambridge MA office
+Jun 06, 2025 2:59:45 PM com.kayak.hotelsearch.Main processBookingRequest
+INFO: Processing request for room 101 by Guest 1
+Jun 06, 2025 2:59:45 PM com.kayak.hotelsearch.Main processBookingRequest
+INFO: Successfully booked room 101 for Guest 1
+Jun 06, 2025 2:59:47 PM com.kayak.hotelsearch.Main processBookingRequest
+INFO: Processing request for room 102 by Guest 2
+Jun 06, 2025 2:59:47 PM com.kayak.hotelsearch.Main processBookingRequest
+INFO: Successfully booked room 102 for Guest 2
+Jun 06, 2025 2:59:49 PM com.kayak.hotelsearch.Main processBookingRequest
+INFO: Processing request for room 103 by Guest 3
+Jun 06, 2025 2:59:49 PM com.kayak.hotelsearch.Main processBookingRequest
+INFO: Successfully booked room 103 for Guest 3
+Jun 06, 2025 2:59:51 PM com.kayak.hotelsearch.Main processBookingRequest
+INFO: Processing request for room 104 by Guest 4
+Jun 06, 2025 2:59:51 PM com.kayak.hotelsearch.Main processBookingRequest
+INFO: Successfully booked room 104 for Guest 4
+Jun 06, 2025 2:59:53 PM com.kayak.hotelsearch.Main processBookingRequest
+INFO: Processing request for room 105 by Guest 5
+Jun 06, 2025 2:59:53 PM com.kayak.hotelsearch.Main processBookingRequest
+INFO: Successfully booked room 105 for Guest 5
+Jun 06, 2025 2:59:55 PM com.kayak.hotelsearch.Main processBookingRequest
+INFO: Processing request for room 106 by Guest 6
+Jun 06, 2025 2:59:55 PM com.kayak.hotelsearch.Main processBookingRequest
+INFO: Successfully booked room 106 for Guest 6
+Jun 06, 2025 2:59:57 PM com.kayak.hotelsearch.Main processBookingRequest
+INFO: Processing request for room 107 by Guest 7
+Jun 06, 2025 2:59:57 PM com.kayak.hotelsearch.Main processBookingRequest
+INFO: Successfully booked room 107 for Guest 7
+Jun 06, 2025 2:59:59 PM com.kayak.hotelsearch.Main processBookingRequest
+INFO: Processing request for room 101 by Guest 8
+Jun 06, 2025 2:59:59 PM com.kayak.hotelsearch.Main processBookingRequest
+INFO: Failed to book room 101 for Guest 8
+Jun 06, 2025 3:00:01 PM com.kayak.hotelsearch.Main processBookingRequest
+INFO: Processing request for room 102 by Guest 9
+Jun 06, 2025 3:00:01 PM com.kayak.hotelsearch.Main processBookingRequest
+INFO: Failed to book room 102 for Guest 9
+Jun 06, 2025 3:00:03 PM com.kayak.hotelsearch.Main processBookingRequest
+INFO: Processing request for room 103 by Guest 10
+Jun 06, 2025 3:00:03 PM com.kayak.hotelsearch.Main processBookingRequest
+INFO: Failed to book room 103 for Guest 10
+Jun 06, 2025 3:00:05 PM com.kayak.hotelsearch.Main printBookingStatistics
+INFO: 
+Booking Statistics:
+Jun 06, 2025 3:00:05 PM com.kayak.hotelsearch.Main printBookingStatistics
+INFO: Total Booking Attempts: 7
+Jun 06, 2025 3:00:05 PM com.kayak.hotelsearch.Main printBookingStatistics
+INFO: Successful Bookings: 7
+Jun 06, 2025 3:00:05 PM com.kayak.hotelsearch.Main printBookingStatistics
+INFO: Booking Success Rate: 70.00%
+Jun 06, 2025 3:00:05 PM com.kayak.hotelsearch.Main printBookingStatistics
+INFO: 
+Room Statistics:
+Jun 06, 2025 3:00:05 PM com.kayak.hotelsearch.Main printBookingStatistics
+INFO: Room 101: STANDARD, Price: $100.00, Available: No, Bookings: 1
+Jun 06, 2025 3:00:05 PM com.kayak.hotelsearch.Main printBookingStatistics
+INFO: Room 102: STANDARD, Price: $100.00, Available: No, Bookings: 1
+Jun 06, 2025 3:00:05 PM com.kayak.hotelsearch.Main printBookingStatistics
+INFO: Room 103: DELUXE, Price: $200.00, Available: No, Bookings: 1
+Jun 06, 2025 3:00:05 PM com.kayak.hotelsearch.Main printBookingStatistics
+INFO: Room 104: DELUXE, Price: $200.00, Available: No, Bookings: 1
+Jun 06, 2025 3:00:05 PM com.kayak.hotelsearch.Main printBookingStatistics
+INFO: Room 105: SUITE, Price: $300.00, Available: No, Bookings: 1
+Jun 06, 2025 3:00:05 PM com.kayak.hotelsearch.Main printBookingStatistics
+INFO: Room 106: SUITE, Price: $300.00, Available: No, Bookings: 1
+Jun 06, 2025 3:00:05 PM com.kayak.hotelsearch.Main printBookingStatistics
+INFO: Room 107: PRESIDENTIAL, Price: $500.00, Available: No, Bookings: 1
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  25.783 s
+[INFO] Finished at: 2025-06-06T15:00:10-04:00
+[INFO] ------------------------------------------------------------------------
+(base) soumyav@Soumyas-MacBook-Air RoomReservation % 
